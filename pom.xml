@@ -6,7 +6,7 @@
 
     <groupId>com.rondoit</groupId>
     <artifactId>parent-pom</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
     <name>parent-pom</name>
     <url>http://www.rondoit.com</url>
@@ -17,7 +17,8 @@
     <properties>
         <spring-boot.version>2.5.3</spring-boot.version>
         <spring-cloud.version>2020.0.3</spring-cloud.version>
-        <contracts.version>1.0.0</contracts.version>
+        <contracts.version>1.0.2</contracts.version>
+        <commons.version>1.0.1</commons.version>
         <apache-commons-lang.version>3.11</apache-commons-lang.version>
         <joda-time.version>2.10.10</joda-time.version>
     </properties>
@@ -28,6 +29,11 @@
                 <groupId>com.rondoit</groupId>
                 <artifactId>contracts</artifactId>
                 <version>${contracts.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.rondoit</groupId>
+                <artifactId>commons</artifactId>
+                <version>${commons.version}</version>
             </dependency>
             <dependency>
                 <groupId>joda-time</groupId>
